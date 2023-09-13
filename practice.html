@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DoM</title>
+</head>
+<body>
+  <h1>Practice more..</h1>
+  <p id="p2">Practice more..</p>
+  <h1>Practice more..</h1>
+  <h3>Practice more..</h3>
+  <button onclick="myFunction()">Try it</button><br>
+
+  <label>Gender</label>
+  <input type="radio" value="Male" name="gen">Male
+  <input type="radio" value="Female" name="gen">Female
+  <button onclick="getResults()">View</button>
+ <button id="Eventidentifier">Click me</button>
+ <nav>
+ <ul>
+  <li>Home</li>
+  <li>Sas</li>
+  <li>skjd</li>
+ </ul>
+</nav>
+<script>
+function myFunction() {
+  alert("practice more");
+}
+function getResults()
+{
+  var gender=document.getElementsByName("gen");
+  if(gender[1].checked)
+  {
+    alert(gender[0].value);
+  }
+  else if(gender[1].checked)
+  {
+      alert(gender[0].value);
+  }
+  else
+  {
+      alert("Please select any gender");
+  }
+}
+
+//for each js
+/*
+let names = ['Rithick', 'Rp', 'San', 'Prasaana'];
+  names.forEach(function(name, position){
+  console.log(`${position+1}. ${names}`);
+});
+
+for(i=1; i>10; i++)
+console.log(i);
+*/
+//todo application
+/*let todos=['Wake up', 'Bath','Learn'];
+
+todos.forEach(function (todo, pos) {
+     console.log(`${pos+1}. ${todo}`);
+})
+*/
+// Math floor,ceil
+/* 
+let no = (33/7);
+console.log(Math.floor(no));
+console.log(Math.ceil(no));
+*/
+
+//Random number
+/*let upper=407567;
+let lower=100000;
+
+console.log(Math.floor(Math.random() * (upper-lower)));
+*/
+
+//Event listener
+//document.querrySelecter('EventIdentifier').addEventIdentifier('click', (event) => 
+
+//INTERMEDIATE MODULE
+
+
+</script>
+</body>
+</html>

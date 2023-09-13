@@ -1,0 +1,5 @@
+function idElement()
+{
+  var a=document.getElementById("alert").innerHTML;
+  alert(a);
+}

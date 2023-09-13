@@ -1,0 +1,240 @@
+*{
+    margin: 0 0;
+    padding: 0 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    }
+    .container{
+    width: 80%;
+    margin:0 auto;
+    padding: 0.1%; 
+    }
+    .img-responsive{
+    width:fit-content;
+    position: relative;}
+    .text-align{
+    text-align: right;
+    font-size: 150%;
+    
+    }
+    .text-center{
+    text-align: left;
+    }
+    .logo{
+    float:left;
+    }
+    
+    .menu {
+    list-style-type: none;
+    }
+    .menu li{
+    display: inline-table;
+    padding: 1%;
+    font-weight: bolder;
+   
+    }
+    .clearfix{
+    clear: both;
+    float: none;
+    }
+    .menu{
+    line-height: 200px;
+    border: 10px;
+    margin-left: 680px;
+    font-size: 150%;
+    }
+    a{
+    color: #ff6b81 ;
+    text-decoration:underline;
+    }
+    a:hover{
+    color: #ff4757;
+    }
+    .food-search{
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10% 0;
+    background-image: linear-gradient(pink,gray,orange);
+    }
+    .food-search input[type="search"]{
+    width: 50%;
+    padding: 1%;
+    font-size: 1rem;
+    border-radius: 10px;
+    }
+    .btn{
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 10px;
+    }
+    .btn-primary{
+    background-color: #df8013;
+    color: aliceblue;
+    cursor: pointer;
+    }
+    .btn-primary:hover{
+    background-color: aqua;
+    }
+    .categories{
+    background-color: beige;
+    padding: 2%;
+    text-decoration: underline;
+    }
+    .text-center{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    }
+    .box{
+    width: 30%;
+    float: left;
+    margin: 1%;
+    }
+    .box:hover .overlay{
+        opacity: 1;
+        border-radius: 18%;
+        transition-delay: 1ms;
+        background-image: url(food.jpg);
+        background-position: center;
+    }
+    .float-container{
+    position: relative;
+    width:30%;
+    }
+    .float-text{
+    position: absolute;
+    bottom: 50px;
+    left: 30%;
+    }
+    .text-white{
+    color: black;
+    font-style: italic;
+    }
+    h2{
+    font-size: 2rem;
+    margin: 2%;
+    }
+    .img-curve{
+    border-radius: 40px;
+    display: block;
+    width: 90%;
+    height: auto;
+    }
+    .overlay{
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 100%;
+      width: 100%;
+      opacity: 0;
+      transition: .5s ease;
+      background-color:gray;
+      
+    }
+    .food-menubox{
+    width: 40%;
+    margin: 1%;
+    float: left;
+    background-color: white;
+    border-radius: 10px;
+    padding: 3%;
+    }
+    .food-menu{
+    background-color:grey;
+    padding: 10% 0;
+    }
+    .food-menu-img{
+    width:fit-content;
+    float: left;
+    }
+    .food-menu-desc{
+    width: 70%;
+    float: center;
+    margin-left:30%;
+    padding: 2%;
+    }
+    .food-price{
+    font-size: 1.5rem;
+    padding: 1%;
+    }
+    .food-detail{
+    font-size: 1rem;
+    color: #ff4757;
+    margin: 20px;
+    }
+    h4{
+    font-style: italic;
+    padding-bottom: 2%;
+    }
+    .social ul{
+    list-style-type: none;
+    }
+    .social{
+        padding: 2%;
+    }
+    .social ul li{
+    display: inline;
+    padding: 1%;
+    }
+    .navbar{
+    background-image: url(../Restaurant/images.jpg);
+    background-image: linear-gradient(blue,red,pink);
+    background-size:cover;
+    width: 100%;
+    height: 40%;
+    }
+    .lineheight{
+       line-height: 20px;
+    }
+    .footer{
+    background-color: #f5e3e4;
+    }
+    .text{
+        text-align: center;
+        padding-top: 10%;
+        padding-bottom:5%;
+        text-decoration: underline;
+        background-color: aquamarine;
+    }
+    .text-pri{
+        text-align: center;
+      
+        font:250% 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+        padding-bottom: 5%;
+        color: #df8013;
+        background-color: aquamarine;
+    }
+    
+    .text-footer{
+        text-align: center;
+    }
+    .underline{
+        text-decoration: underline;
+    }
+    .width{
+       width: 230px; height: 200px;
+    }
+   .button{
+      border-radius: 25px;
+      padding: 6px;
+      cursor: pointer;
+      font-size: 20px;
+      background-color: rgb(41, 199, 9);
+    }
+.button:hover{
+   color: #ff4757;
+}
+.border:hover{
+  color: #ff4757;
+}
+.border{
+ border: none;
+ border-radius: 25px;
+}
